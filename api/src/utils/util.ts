@@ -8,7 +8,6 @@ dotenv.config();
 
 const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_API_KEY;
 
-console.log("API Key: " + GOOGLE_MAPS_API_KEY);
 
 if (!GOOGLE_MAPS_API_KEY) {
   console.error("GOOGLE_API_KEY não foi definida.");
